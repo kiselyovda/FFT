@@ -3,6 +3,7 @@ import numpy as np
 plt.rcParams['figure.figsize'] = [20, 14]
 plt.rcParams.update({'font.size': 20})
 
+
 dx = 1 / 1000
 x = np.arange(0, 1, dx)
 fclean = np.sin(2 * np.pi * 30 * x) + np.sin(2 * np.pi * 90 * x)

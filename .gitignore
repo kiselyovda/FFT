@@ -1,0 +1,5 @@
+.vscode
+.idea
+.gitattributes
+venv
+__pycache__
